@@ -31,7 +31,6 @@ const app = new Vue({
                 text: 'Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam, cumque provident totam omnis.',
             }
         ]
-
     },
     methods:{
         nextImage (){
@@ -54,8 +53,5 @@ const app = new Vue({
         bigImage (i){
             this.imageActive = i;
         },
-
-
-
     }
 })
